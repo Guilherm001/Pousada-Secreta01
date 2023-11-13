@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Source Sans Pro';
+}
+.topo{
+    display: flex;
+    width: 1024px;
+    height: 30px;
+    margin: auto;
+    background-color: aquamarine;
+}
+.teste{
+    margin: auto;
+}
+.topo a{
+    justify-content: flex-end;
+}
