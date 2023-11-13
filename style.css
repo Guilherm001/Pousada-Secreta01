@@ -9,10 +9,10 @@ body{
     width: 1024px;
     height: 30px;
     margin: auto;
-    background-color: aquamarine;
+    background-color: rgb(6, 80, 55);
 }
 .teste{
-    margin: auto;
+    background-image: ;
 }
 .topo a{
     justify-content: flex-end;
