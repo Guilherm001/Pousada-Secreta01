@@ -5,15 +5,108 @@ body{
     font-family: 'Source Sans Pro';
 }
 .topo{
+    background-color: white;
+    width: 100%;
+    height: 50px;
     display: flex;
+    position: fixed;
+    margin-top: 0;
+}
+.faixa-fixa{
     width: 1024px;
-    height: 30px;
     margin: auto;
-    background-color: rgb(6, 80, 55);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
 }
-.teste{
-    background-image: ;
+.secret{
+    color: #94a2af;
+    font-weight: bolder;
+    font-size: 18px;
 }
-.topo a{
-    justify-content: flex-end;
+.links{
+    gap: 25px;
+    display: flex;
+    
 }
+.pousada{
+    font-size: 20px;
+    color: #91928e;
+}
+a{
+    text-decoration: none;
+    color: #3d4242;
+    font-size: 18px;
+}
+.ilha{
+    background-image: url(assets/IMAGENS/img-fundo.jpg);
+    flex-grow: 1;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.caixa-transparente{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 500px;
+    opacity: 0.8;
+    background-color:rgba(2,158,129,255);
+    border: 1px solid white;
+    border-radius: 3px;
+
+}
+.titulo, .sub-titulo{
+    padding: 20px;
+    color: white;
+    opacity: 1;
+}
+.titulo{
+    font-size: 43px;
+}
+.seja-bem-vindo{
+    margin: auto;
+    width: 500px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    color: #64696e;
+    font-weight: normal;
+    line-height: 35px;
+    
+}
+.bem-vindo{
+    font-size: 28px;
+    margin: 60px 0px 15px 0px;
+}
+.quartos{
+    width: 1024px;
+    margin: auto;
+}
+.quart{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.quart img{
+    width: calc(1024px / 3);
+
+}
+
+.quarto-solteiro, .quarto-casal, .quarto-familia{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.quarto-solteiro a, .quarto-casal a, .quarto-familia a{
+    color: #514f4f;
+    font-weight: 600;
+    border-bottom: 3px solid #497673;
+}
+
+
