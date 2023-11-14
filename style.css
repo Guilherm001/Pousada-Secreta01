@@ -94,7 +94,6 @@ a{
 }
 .quart img{
     width: calc(1024px / 3);
-
 }
 
 .quarto-solteiro, .quarto-casal, .quarto-familia{
@@ -106,7 +105,5 @@ a{
 .quarto-solteiro a, .quarto-casal a, .quarto-familia a{
     color: #514f4f;
     font-weight: 600;
-    border-bottom: 3px solid #497673;
 }
-
 
