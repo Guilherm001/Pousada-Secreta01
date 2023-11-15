@@ -40,3 +40,50 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.tipo-do-quarto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    line-height: 60px;
+    margin: 50px auto 50px auto;
+    color: #494b49;
+}
+.tipo-do-quarto h1{
+    font-weight: 500;
+}
+.quantos-img{
+    flex-grow: 1;
+    display: flex;
+}
+img{
+    width: calc(1024px / 3);
+    margin: 3px;
+}
+.info-quarto{
+    margin: 50px auto 20px auto;
+    display: flex;
+    justify-content: center;
+    color: #4c5258;
+}
+.areas-limitadas{
+    flex-direction: column;
+    display: flex;
+    }
+.itens{
+    display: flex;
+    justify-content: space-between;
+}
+.row{
+    display: flex;
+    flex-flow: column wrap;
+    line-height: 30px;
+    height: 60px;
+    
+}
+.row-reverse{
+    display: flex;
+    flex-flow: column-reverse wrap;
+    height: 60px;
+    padding: 15px;
+}
