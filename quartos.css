@@ -56,7 +56,7 @@ a{
     flex-grow: 1;
     display: flex;
 }
-img{
+.foto{
     width: calc(1024px / 3);
     margin: 3px;
 }
@@ -69,21 +69,61 @@ img{
 .areas-limitadas{
     flex-direction: column;
     display: flex;
-    }
+    width: 1024px;
+    margin: auto;
+}
 .itens{
     display: flex;
     justify-content: space-between;
+    height: 90px;
 }
 .row{
     display: flex;
     flex-flow: column wrap;
-    line-height: 30px;
-    height: 60px;
-    
+    gap: 30px 150px;
 }
 .row-reverse{
     display: flex;
-    flex-flow: column-reverse wrap;
+    flex-flow: wrap;
+    justify-content: flex-end;
+    gap: 30px 150px;
+    width: 455px; 
+}
+.row-reverse li{
+    width: 140px;
+}
+.rodapes{
+    background-color: #65a389;
+    width: 100%;
+    margin: auto;
+}
+.rodape{
+    margin: 50px auto 0 auto;
+    width: 1024px;
+    height: 150px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #65a389;
+    border-bottom: 2px solid #3f8e71;
+}
+.rodape-info{
+    display: flex;
+    flex-flow: row nowrap;
+    color: white;
+    width: calc(1024px / 4);
+}
+.rodape-info h1{
+    font-size: 24px;
+}
+.paragrafo{
+    background-color: #65a389;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 60px;
-    padding: 15px;
+    width: 100%;
+    font-weight: bold;
 }
